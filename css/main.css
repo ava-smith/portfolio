@@ -1,3 +1,14 @@
+:root {
+    --first: #191919;
+    --second: #FFF;
+}
+
 .page-wrapper {
-    background-color: #191919;
+    background-color: var(--first);
+}
+
+.navbar {
+    color: var(--second);
+    list-style-type: none;
+    text-decoration: none;
 }
