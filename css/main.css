@@ -12,3 +12,21 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+.nav-links {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 4rem;
+}
+
+.socials {
+    color: var(--second);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.social-links {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 4rem;
+}
