@@ -1,6 +1,11 @@
 :root {
     --first: #163459;
     --second: #FFF;
+    --third: #79adbb
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
 }
 
 .page-wrapper {
@@ -11,10 +16,53 @@
     color: var(--second);
     list-style-type: none;
     text-decoration: none;
+    margin-top: 5%;
+    /*position: fixed;*/
 }
 
 .nav-links {
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
     margin-right: 4rem;
+}
+
+.title {
+    margin-top: 11%;
+    margin-right: 3%;
+}
+
+.greeting {
+    color: var(--second);
+    margin-bottom: unset;
+    font-size: 56px;
+}
+
+.name {
+    color: var(--third);
+    margin-top: unset;
+    font-size: 56px;
+    margin-bottom: 3%;
+}
+
+.description{
+    color: var(--second);
+    font-weight: 300;
+    margin-top: unset;
+}
+
+.me {
+    margin-top: 5%;
+}
+
+.resume-btn {
+    background-color: var(--third);
+    color: var(--second);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    border: unset;
+    width: 11rem;
+    height: 3rem;
+    margin-right: 8rem;
 }
