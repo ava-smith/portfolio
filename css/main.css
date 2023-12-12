@@ -44,7 +44,7 @@ body {
 }
 
 .title {
-    margin-top: 11%;
+    margin-top: 10%;
     margin-right: 3%;
     color: var(--third);
 }
@@ -134,6 +134,33 @@ body {
     font-size: 28px;
 }
 
-.service {
+.services {
+    margin-top: 20rem;
+}
 
+.services-titles {
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 2rem;
+}
+
+.web-dev{
+    margin-right: 3rem;
+}
+
+.web-dev-icon {
+    height: 110px;
+    width: 152px;
+}
+
+.web-design-icon {
+    height: 95px;
+    width: 147px;
+    margin-top: 1rem;
+}
+
+.bean-cat {
+    position: relative;
+    right: 13rem;
+    bottom: 8rem;
 }
