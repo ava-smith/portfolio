@@ -1,7 +1,8 @@
 :root {
     --first: #163459;
     --second: #FFF;
-    --third: #79adbb
+    --third: #79adbb;
+    --fourth: #546884;
 }
 
 body {
@@ -12,17 +13,24 @@ body {
     background-color: var(--first);
 }
 
+.home {
+    margin: 2rem;
+}
+
 .navbar {
     color: var(--second);
     list-style-type: none;
     text-decoration: none;
-    margin-top: 5%;
-    /*position: fixed;*/
+    margin-top: 4rem;
+}
+
+.nav {
+    position: fixed;
 }
 
 .nav-links {
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     margin-right: 4rem;
 }
@@ -31,9 +39,14 @@ body {
     color: var(--third);
 }
 
+.landing {
+    margin-top: 10rem;
+}
+
 .title {
     margin-top: 11%;
     margin-right: 3%;
+    color: var(--third);
 }
 
 .greeting {
@@ -55,6 +68,10 @@ body {
     margin-top: unset;
 }
 
+.highlight {
+    color: var(--third);
+}
+
 .me {
     margin-top: 5%;
 }
@@ -69,10 +86,54 @@ body {
     width: 11rem;
     height: 3rem;
     margin-right: 8rem;
+    margin-top: 1rem;
 }
 
 .resume-btn:hover {
     cursor: pointer;
     background-color: var(--second);
     color: var(--third);
+}
+
+.about {
+    margin-top: 8rem;
+}
+
+.about-me {
+    color: var(--second);
+    font-size: 20px;
+}
+
+.cat-img {
+    position: relative;
+    bottom: 9rem;
+    left: 9rem;
+}
+
+.box {
+    background-color: var(--fourth);
+    color: var(--second);
+}
+
+.special-spacing {
+    margin-top: 1.5rem;
+}
+
+.underline {
+    border-bottom: 1px solid var(--second);
+    padding-bottom: 5px;
+    width: 15rem;
+}
+
+.tech-skills {
+    margin-top: 10rem
+}
+
+.sub-title {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.service {
+
 }
