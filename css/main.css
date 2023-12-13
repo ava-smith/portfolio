@@ -7,6 +7,8 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    background-color: var(--first);
 }
 
 .page-wrapper {
@@ -96,7 +98,7 @@ body {
 }
 
 .about {
-    margin-top: 8rem;
+    margin-top: 5rem;
 }
 
 .about-me {
@@ -119,14 +121,14 @@ body {
     margin-top: 1.5rem;
 }
 
+.special-spacing-1 {
+    margin-top: 2rem;
+}
+
 .underline {
     border-bottom: 1px solid var(--second);
     padding-bottom: 5px;
     width: 15rem;
-}
-
-.tech-skills {
-    margin-top: 6rem;
 }
 
 .sub-title {
@@ -135,7 +137,7 @@ body {
 }
 
 .services {
-    margin-top: 20rem;
+    margin-top: 15rem;
 }
 
 .services-titles {
@@ -165,10 +167,52 @@ body {
     bottom: 8rem;
 }
 
+.projects-start {
+    margin-top: 15rem;
+}
+
 .smaller-col {
-    width: 30%;
+    flex: 1;
+    max-width: 60%;
+    color: var(--second);
 }
 
 .title-color {
     color: var(--third);
 }
+
+.project-pic {
+    height: 25rem;
+    width: 30rem;
+    /*position: relative;*/
+}
+
+.project-title {
+    font-size: 34px;
+    color: var(--third);
+}
+
+.bottom-title {
+    color: var(--third);
+}
+
+.project-description {
+    padding-right: 6rem;
+}
+
+.computer {
+    position: relative;
+    bottom: 16.7rem;
+}
+
+.screenshot {
+    height: 1352px;
+    width: 2876px;
+    padding: 2px;
+}
+
+.screenshot:hover {
+    transition: filter 0.3s ease;
+    filter: blur(5px);
+}
+
